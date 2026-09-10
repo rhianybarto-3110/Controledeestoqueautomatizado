@@ -87,10 +87,10 @@ export const INITIAL_SECTORS: Sector[] = [
   {
     id: 'sec-4',
     name: 'Almoxarifado Central',
-    managerName: 'Roberto Guimarães da Silva',
+    managerName: 'Rhiany Barto',
     managerRegistration: 'MAT-0512',
     costCenter: 'CC-101 - Logística e Suprimentos',
-    notes: 'Controle de recebimento físico, inspeção e dispensação.'
+    notes: 'Responsável pelo Sistema e Almoxarifado Central (rhianybarto@gmail.com).'
   },
   {
     id: 'sec-5',
@@ -225,7 +225,7 @@ export const INITIAL_REQUISITIONS: Requisition[] = [
     sectorName: 'Usinagem',
     requesterName: 'Eng. Carlos Eduardo Mendes',
     requesterRegistration: 'MAT-1042',
-    warehouseManager: 'Roberto Guimarães da Silva',
+    warehouseManager: 'Rhiany Barto',
     warehouseManagerRegistration: 'MAT-0512',
     reason: 'Atendimento do Plano Mestre de Produção - Ordem de Serviço OP-4091',
     status: 'ATENDIDA',
@@ -267,7 +267,7 @@ export const INITIAL_REQUISITIONS: Requisition[] = [
     sectorName: 'Manutenção',
     requesterName: 'Silvana Duarte Castro',
     requesterRegistration: 'MAT-1334',
-    warehouseManager: 'Roberto Guimarães da Silva',
+    warehouseManager: 'Rhiany Barto',
     warehouseManagerRegistration: 'MAT-0512',
     reason: 'Manutenção Corretiva na Prensa Hidráulica P-02 (Troca preventiva)',
     status: 'ATENDIDA',

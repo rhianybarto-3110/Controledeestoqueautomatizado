@@ -311,7 +311,7 @@ export default function App() {
       {/* Rodapé Corporativo */}
       <footer className="bg-white border-t border-slate-200 py-4 text-center text-xs text-slate-500 no-print">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>InovaTech Manufatura S.A. • Gestão e Controle Operacional de Estoques</span>
+          <span>InovaTech Manufatura S.A. • Gestão e Controle Operacional • <strong className="text-slate-700 font-semibold">Responsável pelo Sistema: Rhiany Barto</strong></span>
           <div className="flex items-center space-x-3">
             <button
               onClick={() => setIsTestGuideOpen(true)}

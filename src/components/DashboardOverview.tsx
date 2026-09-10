@@ -52,7 +52,7 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
         <div className="space-y-2 max-w-2xl">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold border border-blue-400/30">
             <CheckCircle2 className="w-3.5 h-3.5 text-blue-400" />
-            <span>Sistema em Operação • InovaTech Manufatura S.A.</span>
+            <span>Sistema em Operação • Responsável: Rhiany Barto</span>
           </div>
           <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">
             Painel Operacional de Controle de Estoques e Almoxarifado

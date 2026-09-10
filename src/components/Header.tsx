@@ -52,13 +52,26 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
             </div>
             <p className="text-xs text-slate-500">
-              Sistema Integrado de Gestão e Controle de Estoques Industriais
+              Sistema Integrado de Gestão e Controle de Estoques Industriais • <span className="font-semibold text-slate-700">Responsável: Rhiany Barto</span>
             </p>
           </div>
         </div>
 
         {/* Quick Indicators & Action Buttons */}
         <div className="flex flex-wrap items-center gap-2.5">
+          {/* Badge do Responsável pelo App */}
+          <div 
+            title="Responsável pelo App: Rhiany Barto (rhianybarto@gmail.com)"
+            className="flex items-center space-x-2 px-2.5 py-1 bg-slate-50 border border-slate-200 rounded-lg shadow-2xs"
+          >
+            <div className="w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shadow-2xs shrink-0">
+              RB
+            </div>
+            <div className="text-left leading-tight hidden sm:block">
+              <span className="text-[9px] uppercase font-bold text-slate-500 block">Responsável pelo App</span>
+              <span className="text-xs font-bold text-slate-900">Rhiany Barto</span>
+            </div>
+          </div>
           {/* Alerta de Itens Críticos */}
           <button
             onClick={() => setActiveTab('reports')}

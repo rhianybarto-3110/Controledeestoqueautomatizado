@@ -50,7 +50,7 @@ export const TestGuideModal: React.FC<TestGuideModalProps> = ({
                 Roteiro de Validação dos Testes Obrigatórios
               </h3>
               <p className="text-xs text-slate-400">
-                InovaTech Manufatura S.A. • Conformidade com os requisitos de avaliação
+                InovaTech Manufatura S.A. • Responsável: Rhiany Barto • Conformidade com os requisitos de avaliação
               </p>
             </div>
           </div>

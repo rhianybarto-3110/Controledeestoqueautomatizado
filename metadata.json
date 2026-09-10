@@ -1,6 +1,6 @@
 {
   "name": "InovaTech Estoque - Gestão de Materiais",
-  "description": "Sistema de controle e gestão de estoques da InovaTech Manufatura S.A., com rastreabilidade de entradas e saídas, saldos em tempo real, alertas críticos e emissão de requisições para impressão.",
+  "description": "Sistema de controle e gestão de estoques da InovaTech Manufatura S.A., sob responsabilidade de Rhiany Barto. Rastreabilidade de entradas e saídas, saldos em tempo real, alertas críticos e emissão de requisições para impressão.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

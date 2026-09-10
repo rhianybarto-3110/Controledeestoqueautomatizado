@@ -2,11 +2,11 @@ import { Product, Sector, StockMovement, Requisition, UnitOfMeasure } from '../t
 import { INITIAL_PRODUCTS, INITIAL_SECTORS, INITIAL_MOVEMENTS, INITIAL_REQUISITIONS } from '../data/initialData';
 
 const STORAGE_KEYS = {
-  PRODUCTS: 'inovatech_products_v1',
-  SECTORS: 'inovatech_sectors_v1',
-  MOVEMENTS: 'inovatech_movements_v1',
-  REQUISITIONS: 'inovatech_requisitions_v1',
-  INITIALIZED: 'inovatech_initialized_v1'
+  PRODUCTS: 'inovatech_products_v2',
+  SECTORS: 'inovatech_sectors_v2',
+  MOVEMENTS: 'inovatech_movements_v2',
+  REQUISITIONS: 'inovatech_requisitions_v2',
+  INITIALIZED: 'inovatech_initialized_v2'
 };
 
 export const StorageService = {

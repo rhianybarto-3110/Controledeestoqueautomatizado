@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Print styling for formal manufacturing requisitions */
+  @media print {
+    body {
+      background: white !important;
+      color: #000 !important;
+      font-size: 11pt !important;
+    }
+
+    .no-print {
+      display: none !important;
+    }
+
+    .print-only {
+      display: block !important;
+    }
+
+    .print-container {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      box-shadow: none !important;
+      border: none !important;
+    }
+
+    .page-break-avoid {
+      page-break-inside: avoid;
+    }
+  }
+
+  @media screen {
+    .print-only {
+      display: none !important;
+    }
+  }
+}
